@@ -88,7 +88,7 @@ figS1 = ggplot(data = dat, aes(x = as.factor(year), y = percent_change, fill=as.
 # Figure S2
 # build correlation plots by comparison
 
-# Capture to Boiling
+# Capture to Boiled
 B = filter(dat, test %in% c('Capture to boiled'))
 
 b1 = ggplot(data = B, aes(x = start_temperature,y = percent_change))+
@@ -125,7 +125,7 @@ b4 = ggplot(data = B, aes(x = boiling_duration,y = percent_change))+
 
 b = b1/b2/b3/b4 + plot_layout(guides = 'collect')
 
-# Boiling to packing
+# Boiled to packing
 P = filter(dat, test %in% c('Boiled to packing'))
 
 p1 = ggplot(data = P, aes(x = start_temperature,y = percent_change))+
