@@ -10,6 +10,9 @@ require(readxl)
 require(lme4)
 require(MuMIn)
 
+sessionInfo()
+# MuMIn_1.48.4 lme4_1.1-37  Matrix_1.7-2 readxl_1.4.5 dplyr_1.1.4 
+
 ###
 # load data
 data = read_excel("data/Weight loss data.xlsx", sheet = 1)

@@ -11,6 +11,10 @@ require(viridis)
 require(readxl)
 require(patchwork)
 
+sessionInfo()
+#  [1] patchwork_1.3.0   readxl_1.4.5      viridis_0.6.5     viridisLite_0.4.2 lubridate_1.9.4   forcats_1.0.0     stringr_1.5.1     dplyr_1.1.4       purrr_1.0.4      
+# [10] readr_2.1.5       tidyr_1.3.1       tibble_3.2.1      tidyverse_2.0.0   ggplot2_3.5.1     data.table_1.17.0
+
 ###
 # load data
 data = read_excel("data/Weight loss data.xlsx", sheet = 1)
